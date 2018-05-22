@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(247): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(247): warning C4305: “初始化”: 从“double”到“float”截断
+  Bitonic Sort.vcxproj -> D:\Documents\GitHub\Bitonic-Sort\Bitonic Sort\Debug\Bitonic Sort.exe
+  Bitonic Sort.vcxproj -> D:\Documents\GitHub\Bitonic-Sort\Bitonic Sort\Debug\Bitonic Sort.pdb (Full PDB)
