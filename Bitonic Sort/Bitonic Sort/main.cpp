@@ -348,18 +348,19 @@ void main()
 	float *data1;
 	int *seg_id;
 	int *seg_start;
-	int lastn = 100, lastm = 50;
+	int lastn = 5000, lastm = 5000;
 
 	data0 = new float[lastn];
 	data1 = new float[lastn];
 	seg_id = new int[lastn];
 	seg_start = new int[lastm + 1];
-
+	int cal = 0;
+	int correct_cal = 0;
 	ifstream _testDatas;
 
 	//关闭文件测试 给key赋值false;
-	bool key = false;
-	//bool key = true;
+	//bool key = false;
+	bool key = true;
 	
 	if (key)
 	{
@@ -373,7 +374,7 @@ void main()
 
 	while (!_testDatas.eof()&&(_testDatas >> n >> m)&&key)
 	{
-
+		cal++;
 		if (n > lastn)
 		{
 			data0 = new float[n];
@@ -415,7 +416,7 @@ void main()
 
 		if (equal(data0, data0 + n -1 , data1, data1 + n -1))
 		{
-			cout << "equal" << endl;
+			correct_cal++;
 		}
 		else
 		{
@@ -433,7 +434,7 @@ void main()
 			cout << endl;
 		}
 
-		_sleep(200);
+		
 
 	}
 	
@@ -471,8 +472,8 @@ void main()
 	int n3 = 5;
 
 	int m3 = 2;
-
-
+	cout << correct_cal << endl;
+	cout << cal << endl;
 	////调用分段双调函数
 	//segmentedBitonicSort1 CSDN实现代码
 	segmentedBitonicSort1(data4, seg_id3, seg_start3, n3, m3);

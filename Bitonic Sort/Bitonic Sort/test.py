@@ -6,8 +6,8 @@ MAX_B = 1000000
 
 
 def _rand(testObj):
-    n = randint(3, 10)
-    m = randint(2, n-1)
+    n = randint(2000, 5000)
+    m = randint(1000, n-1)
     a = []
     
     for i in range(m-1):

@@ -1,9 +1,7 @@
 ﻿  main.cpp
-d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(464): warning C4838: 从“double”转换到“float”需要收缩转换
-d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(464): warning C4305: “初始化”: 从“double”到“float”截断
 d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(465): warning C4838: 从“double”转换到“float”需要收缩转换
 d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(465): warning C4305: “初始化”: 从“double”到“float”截断
-d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(436): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1266): note: 参见“_sleep”的声明
+d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(466): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\documents\github\bitonic-sort\bitonic sort\bitonic sort\main.cpp(466): warning C4305: “初始化”: 从“double”到“float”截断
   Bitonic Sort.vcxproj -> D:\Documents\GitHub\Bitonic-Sort\Bitonic Sort\Debug\Bitonic Sort.exe
   Bitonic Sort.vcxproj -> D:\Documents\GitHub\Bitonic-Sort\Bitonic Sort\Debug\Bitonic Sort.pdb (Full PDB)
